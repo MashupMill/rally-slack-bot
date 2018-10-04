@@ -22,3 +22,11 @@ Install Slash Commands, add a configuration with the following settings:
 docker run -d -p 8080:8080 -e RALLY_API_KEY=abc123 -e SLACK_TOKEN=def456 mashupmill/rally-slack-bot
 ```
 
+## Usage
+
+Example commands:
+
+`/rally help`
+`/rally US1234`
+`/rally foo bar`
+
