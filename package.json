@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "@mashupmill/rally-slack-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "mocha"
+  },
+  "author": "MashupMill",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "rally": "^2.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
